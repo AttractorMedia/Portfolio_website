@@ -7,7 +7,8 @@ website:
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
   page-footer: "[Made with Quarto](https://quarto.org/)"
   navbar:
-    right:
+    background: "dark"
+    left:
       - text: Home
         href: index.qmd
       
@@ -17,7 +18,7 @@ format:
     fontcolor: "black"
     linkcolor: "purple"
     mainfont: "Arial"
-    fontsize: 20px
+    fontsize: 25px
     monobackgroundcolor: "purple"
     theme: [cosmo, styles.scss]
 
